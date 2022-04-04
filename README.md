@@ -21,7 +21,7 @@ Windows桌面应用的设计基于**Electron** + **Node.js** + **VScode**,主要
 ⑨动态热力图等：使用Echart生成动态热力图。  
 
 ## 4.效果展示
-![image](https://github.com/dbwaax/ECT_windows/master/image/windows1.png)  
+![image](https://github.com/dbwaax/ECT_windows/blob/master/image/windows1.png)  
 ![image](https://github.com/dbwaax/ECT_windows/master/image/windows2.png)  
 ![image](https://github.com/dbwaax/ECT_windows/master/image/windows3.png)  
 ![image](https://github.com/dbwaax/ECT_windows/master/image/windows4.png)  
