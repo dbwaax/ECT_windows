@@ -1,44 +1,28 @@
-# electron-quick-start
+## 交通时空大数据分析挖掘系统(Windows 客户端)
 
-**Clone and run for a quick way to see Electron in action.**
 
-This is a minimal Electron application based on the [Quick Start Guide](https://electronjs.org/docs/tutorial/quick-start) within the Electron documentation.
+## 1.什么是交通时空大数据分析挖掘系统？
+交通时空大数据分析挖掘系统：设计并实现了一种交通时空大数据分析挖掘系统。系统的主要组成部分为:云服务器、移动端应用(安卓)、windows端应用。  
+为了实现高效的分布式处理过程,系统的分布式环境采用spark+hadoop,在利用hdfs分布式存储的情况下充分发挥出spark快速处理分布式数据的优势,并支持用户采用pyspark + jupyter notebook对任务程序进行编写并提交任务运行。在分布式系统中对手机信令数据的处理主要分为:数据上传与数据抓取、数据清洗、数据处理、数据分析、数据可视化。
 
-**Use this app along with the [Electron API Demos](https://electronjs.org/#get-started) app for API code examples to help you get started.**
 
-A basic Electron application needs just these files:
+## 2.基于什么开发？
+Windows桌面应用的设计基于**Electron** + **Node.js** + **VScode**,主要设计语言是**HTML+JS**，图形表格插件用到**Echarts.js**。
 
-- `package.json` - Points to the app's main file and lists its details and dependencies.
-- `main.js` - Starts the app and creates a browser window to render HTML. This is the app's **main process**.
-- `index.html` - A web page to render. This is the app's **renderer process**.
 
-You can learn more about each of these components within the [Quick Start Guide](https://electronjs.org/docs/tutorial/quick-start).
+## 3.功能介绍
+①数据清洗成分介绍：调用服务器数据清晰成分接口，获得数据在前端进行以显示。  
+②系统功能介绍：对系统的功能进行一定的介绍。  
+③数据上传：利用服务器文件上传接口上传用户文件。  
+④可视化数据处理：调用强制清洗数据接口对用户上传数据进行处理，并实时反馈处理结果。  
+⑤出行分析：调用相对应接口获得出行分析结果。  
+⑥人口驻留可视化：对人口驻留聚类数据利用Echart上进行可视化展示。  
+⑧分时端驻留可视化：对分时驻留聚类数据利用Echart上进行可视化展示。  
+⑨动态热力图等：使用Echart生成动态热力图。  
 
-## To Use
+## 4.效果展示
 
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
-```bash
-# Clone this repository
-git clone https://github.com/electron/electron-quick-start
-# Go into the repository
-cd electron-quick-start
-# Install dependencies
-npm install
-# Run the app
-npm start
-```
-
-Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
-
-## Resources for Learning Electron
-
-- [electronjs.org/docs](https://electronjs.org/docs) - all of Electron's documentation
-- [electronjs.org/community#boilerplates](https://electronjs.org/community#boilerplates) - sample starter apps created by the community
-- [electron/electron-quick-start](https://github.com/electron/electron-quick-start) - a very basic starter Electron app
-- [electron/simple-samples](https://github.com/electron/simple-samples) - small applications with ideas for taking them further
-- [electron/electron-api-demos](https://github.com/electron/electron-api-demos) - an Electron app that teaches you how to use Electron
-- [hokein/electron-sample-apps](https://github.com/hokein/electron-sample-apps) - small demo apps for the various Electron APIs
 
 ## License
 
