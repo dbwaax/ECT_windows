@@ -21,14 +21,14 @@ Windows桌面应用的设计基于**Electron** + **Node.js** + **VScode**,主要
 ⑨动态热力图等：使用Echart生成动态热力图。  
 
 ## 4.效果展示
-![image](https://github.com/dbwaax/ECT_windows/tree/master/image/windows1.png)  
-![image](https://github.com/dbwaax/ECT_windows/tree/master/image/windows2.png)  
-![image](https://github.com/dbwaax/ECT_windows/tree/master/image/windows3.png)  
-![image](https://github.com/dbwaax/ECT_windows/tree/master/image/windows4.png)  
-![image](https://github.com/dbwaax/ECT_windows/tree/master/image/windows5.png)  
-![image](https://github.com/dbwaax/ECT_windows/tree/master/image/windows6.png)  
-![image](https://github.com/dbwaax/ECT_windows/tree/master/image/windows7.png)  
-![image](https://github.com/dbwaax/ECT_windows/tree/master/image/wwwww1w1w1w1.png)  
+![image](https://github.com/dbwaax/ECT_windows/master/image/windows1.png)  
+![image](https://github.com/dbwaax/ECT_windows/master/image/windows2.png)  
+![image](https://github.com/dbwaax/ECT_windows/master/image/windows3.png)  
+![image](https://github.com/dbwaax/ECT_windows/master/image/windows4.png)  
+![image](https://github.com/dbwaax/ECT_windows/master/image/windows5.png)  
+![image](https://github.com/dbwaax/ECT_windows/master/image/windows6.png)  
+![image](https://github.com/dbwaax/ECT_windows/master/image/windows7.png)  
+![image](https://github.com/dbwaax/ECT_windows/master/image/wwwww1w1w1w1.png)  
 
 
 
