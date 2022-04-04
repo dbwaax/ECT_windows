@@ -1,0 +1,334 @@
+.chart11{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height:300px;
+    overflow: hidden;
+}
+#logoxxx1{
+    position: absolute;;
+    top: -46px;
+    height: 200px;
+    overflow: hidden;
+}
+#fontxxx1{
+    position: absolute;
+    font-size: 15px;
+    left: 40px;
+    top:80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 200px;
+    overflow: hidden;
+}
+#fontxxx2{
+    position: absolute;
+    font-size: 30px;
+    left: 90px;
+    top:130px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 200px;
+    overflow: hidden;
+}
+#Personal_index{
+    position: absolute;
+    top: 2px;
+    width: 28%;
+    height: 45%;
+    left: 335px;
+    overflow: hidden;
+}
+#chart2{
+    position: absolute;
+    right: 4px;
+    top:2px;
+    margin: 0 auto;
+    padding: 0px;
+    overflow:visible;
+    width: 30%;
+    height: 45%;
+}
+#chart3_1{
+    position: absolute;
+    right: 4px;
+    top:45%;
+    margin: 0 auto;
+    padding: 0px;
+    overflow:visible;
+    width: 100%;
+    height: 55%;
+}
+#data_state{
+    position: absolute;
+    margin: 0 auto;
+    padding: 0px;
+    top:20px;
+    overflow:visible;
+    width: 11%;
+    height: 10%;
+    right: 400px;
+    line-height: 60px;/*让黄色div中的文字内容垂直居中*/
+    border-radius: 5px;
+    border: 1px solid #b9b9b9;
+}
+#data_state1{
+    position: absolute;
+    margin: 0 auto;
+    padding: 0px;
+    top:200px;
+    overflow:visible;
+    width: 11%;
+    height: 10%;
+    right: 400px;
+    line-height: 60px;/*让黄色div中的文字内容垂直居中*/
+    border-radius: 5px;
+    border: 1px solid #b9b9b9;
+}
+#able{
+    position: absolute;
+    width: 2%;
+    right: 410px;
+    top:38px;
+}
+#enable{
+    position: absolute;
+    width: 2%;
+    right: 410px;
+    top:218px;
+}
+.chart11,.container_site,.chart33,.container3{
+    top:0;
+    width: 50%;
+    height: 660px;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+}
+.chart11_2,.chart33{
+    height: 680px;
+    position: absolute;
+    left: 0px;
+    overflow: hidden;
+    border-right: none;
+    margin-right: 10px;
+}
+
+/* container3 子div分析表 */
+.chart11_3,.chart22_3{
+    padding-top: 3px;
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: visible;
+    border-bottom: none;
+}
+/* container1 */
+.container_site{
+    position: relative;
+    padding: 10px;
+    width: 100%;
+    height: 680px;
+}
+#container_chart1{
+    perspective: 500px;/*这个是设置盒子的透视度*/
+    -webkit-perspective: 500px;
+    width:55%;
+    height:600px;
+    top:0px;
+    right:30px;
+    position:absolute;
+    z-index:100;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px #888888;
+    opacity: 0.8;
+    background-color:#a1a1a1;
+    /* transition:2.75s; */
+    display: none;
+    animation:none;
+    /* infinite alternate; */
+}
+@keyframes window_move
+{
+    0%   {top:0px;}
+    25%  {top:10px;}
+    50%  {top:20px;}
+    75%  {top:10px;}
+    100% {top:15px;}
+}
+.chart11_2{
+    width: 100%;
+}
+.chart_site_1{
+    position:absolute;
+    z-index: 200;
+    width: 50%;
+    height: 300px;
+    top:0;
+    right:60px;
+    animation: none;
+}
+@keyframes sub_window_move_1
+{
+    0%   {top:0px;}
+    25%  {top:5px;}
+    50%  {top:15px;}
+    75%  {top:30px;}
+    100% {top:25px;}
+}
+.chart_site_2{
+    position:absolute;
+    z-index: 200;
+    width: 25%;
+    height: 290px;
+    top:320px;
+    right:30px;
+    animation: none;
+    overflow: visible;
+}
+.chart_site_3{
+    position:absolute;
+    z-index: 200;
+    width: 30%;
+    height: 290px;
+    top:320px;
+    right:330px;
+    animation: none;
+}
+@keyframes sub_window_move_23
+{
+    0%   {top:300px;}
+    25%  {top:310px;}
+    50%  {top:315px;}
+    75%  {top:330px;}
+    100% {top:320px;}
+}
+
+
+.heatmap{
+    width: 100%;
+    height: 680px;
+}
+#chart{
+    position: absolute;
+    width: 100%;
+    height: 680px;
+}
+#detail_chart1{
+    position: absolute;
+    width: 40%;
+    height: 500px;
+    top:0px;
+    left:10px;
+    border: 1px solid #f1f1f1;
+    background-color: #b9b9b9;
+    border-radius: 10px;
+    opacity: 0.85;
+    display: none;
+    animation: none;
+}
+#detail_chart2{
+    position: absolute;
+    width: 20%;
+    height: 600px;
+    top:0px;
+    right:10px;
+    border: 1px solid #f1f1f1;
+    background-color: #b9b9b9;
+    border-radius: 10px;
+    opacity: 0.85;
+    display: none;
+    animation: none;
+}
+#cd1{
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    top:50px;
+    left:40px;
+    animation: none;
+    display: none;
+}
+#cd2{
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    top:290px;
+    left:40px;
+    animation: none;
+    display: none;
+}
+#cd3{
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    top:50px;
+    left:280px;
+    animation: none;
+    display: none;
+}
+#cd4{
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    top:290px;
+    left:280px;
+    animation: none;
+    display: none;
+}
+#cd5{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top:18px;
+    right:35px;
+    animation: none;
+}
+#cd6{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top:218px;
+    right:35px;
+    animation: none;
+}
+#cd7{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top:418px;
+    right:35px;
+    animation: none;
+}
+@keyframes sub_window_move_detail
+{
+    0%   {top:0px;}
+    25%  {top:20px;}
+    50%  {top:40px;}
+    75%  {top:70px;}
+    100% {top:50px;}
+}
+@keyframes sub_window_move_detail2
+{
+    0%   {top:0px;}
+    25%  {top:5px;}
+    50%  {top:10px;}
+    75%  {top:20px;}
+    100% {top:15px;}
+}
+@keyframes cd_move_13
+{
+    0%   {top:0px;}
+    25%  {top:20px;}
+    50%  {top:40px;}
+    75%  {top:60px;}
+    100% {top:50px;}
+}
+@keyframes cd_move_24
+{
+    0%   {top:240px;}
+    25%  {top:260px;}
+    50%  {top:280px;}
+    75%  {top:300px;}
+    100% {top:290px;}
+}

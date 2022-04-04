@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="../css/personal.css">
+        <link rel="stylesheet" href="../css/selection_box.css">
+        <link rel="stylesheet" href="../css/lee_loading.css">
+        <script src="../js/lee_loading.js"></script>
+        <title>个人空间</title>
+    </head>
+
+    <body>
+        <div class="mainContainer">
+            <div class="title_banner">
+                <img src="../image/list_button.png" class="list_button" id="list_button">
+            </div>
+            <div class="frame_content">
+                <iframe class="frame" src="frame/index2.html" id="frame_content" scrolling="no"></iframe>
+            </div>
+            <div id="selector_bg"></div>
+            <div class="selector" id="id_selector">
+                <div class="content_logo" id="content_logo">
+                    <div class="logo_container1">
+                        <img class="logo_style" src="../logo/logo_content.png" />
+                    </div>
+                    <div class="logo_state">
+                        交通大数据平台
+                    </div>
+                </div>
+                <div class="switch_btn">
+                    <div class="function_area">基础用户功能</div>
+                    <div class="box">
+                        <div class="box7" id="up">数据上传</div>
+                    </div>
+                    <div class="box">
+                        <div class="box6" id="exec">数据处理</div>
+                    </div>
+                    <div class="box" id="index2">
+                        <div class="box4">出行分析</div>
+                    </div>
+                    <div class="box" id="index3">
+                        <div class="box3">人口驻留</div>
+                    </div>
+                    <div class="box" id="index4">
+                        <div class="box2">分时段驻留</div>
+                    </div>
+                    <div class="box" id="index1">
+                        <div class="box5">动态热力图</div>
+                    </div>
+                    <div class="help">扩展内容</div>
+                    <div class="box">
+                        <div class="box1" id="oindex">访问官网</div>
+                        <!-- <script src="../js/personal_page.js"></script> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+    <script src="../js/jquery-2.2.4.min.js"></script>      
+    <script>if (window.module) module = window.module;</script>
+    <script src="../../personal_page.js"></script>
+    <script>
+        boxStyle('.box1');
+        boxStyle('.box2');
+        boxStyle('.box3');
+        boxStyle('.box4');
+        boxStyle('.box5');
+        boxStyle('.box6');
+        boxStyle('.box7');
+    </script>
+</html>

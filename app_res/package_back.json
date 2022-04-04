@@ -1,0 +1,61 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron --inspect=5858.",
+    "dist": "electron-builder"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "dbw",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^8.0.3",
+    "electron-builder": "^22.4.1",
+    "nsis": "^0.0.0"
+  },
+  "build": {
+    "productName": "dbw",
+    "appId": "com.example.dbw",
+    "copyright": "dbw",
+    "files":[
+      "./**/*"
+    ],
+    "directories": {
+      "output": "build",
+      "app": "./app_res"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowElevation": true,
+      "allowToChangeInstallationDirectory": true,
+      "installerIcon": "app_res/icon/ico.ico",
+      "uninstallerIcon": "app_res/icon/ico.ico",
+      "installerHeaderIcon": "app_res/icon/ico.ico",
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "交通时空大数据平台",
+      "include": "app_res/build/installer.nsh"
+    },
+    "win": {
+      "icon": "app_res/icon/ico.ico",
+      "target": [
+        {
+          "target": "nsis"
+        }
+      ]
+    }
+  },
+  "dependencies": {
+    "echarts": "^4.6.0",
+    "jQuery": "^2.2.4"
+  }
+}

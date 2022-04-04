@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box,.box_1{
+    perspective: 300px;/*这个是设置盒子的透视度*/
+    -webkit-perspective: 300px;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.box1,.box2,.box3,.box4,.box5,.box6,.box7{
+    /* position: absolute; */
+    margin: 5px auto;
+    width: 90%;
+    margin-left: 15px;
+    height: 60px;
+    text-align: center;
+    line-height:60px;
+    font-size: 20px;
+    border-bottom: 1px solid #000000;
+    /* background-color: #D58512; */
+    /* border-radius: 6%; */
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.5); */
+    transition: all 0.4s;
+    transform: scale(1);
+}

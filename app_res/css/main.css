@@ -1,0 +1,211 @@
+body,html{
+  margin: 0px auto;
+  height: 549px;
+  width: 100%;
+  background-color:rgba(0, 0, 0, 0);
+}
+#globe_container{
+  background-color: rgba(	245,245,245, 0.92);
+  height: 549px;
+  margin: 0 auto ;
+  padding: 0;
+  border-radius: 50px;
+  /* box-shadow: 0px 25px 35px -25px gainsboro; */
+  -webkit-app-region:drag;
+}
+.icon_container,.divider_container,.login_container{
+  margin: 0 auto ;
+  padding: 0;
+  height: 549px;
+  float: left;
+}
+.icon_container{
+  width: 40%;
+}
+.divider_container{
+  width: 3%;
+}
+.login_container{
+  float: right;
+  width: 57%;
+  text-align: center; 
+}
+
+.logo_front{
+  position: absolute;
+  top:18%;
+  left: 5%;
+  height: 400px;
+  width: auto;
+}
+.logo_text_front,.logo_subtext_front{
+  position: absolute;
+  top:11%;
+  left: 6%;
+}
+.logo_text_front{
+  font-size: 27px;
+  font-style: bold;
+}
+.logo_subtext_front{
+  top:19%;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: bold;
+}
+.quit_btn_container{
+  top:85%;
+  left: 14%;
+  width: 11%;
+  height: 6%;
+  position: absolute;
+}
+.enter_btn_container{
+  top:85%;
+  right: 24%;
+  width: 11%;
+  height: 6%;
+  position: absolute;
+}
+.btn_text{
+  margin:0 auto;
+  font-size: 25px;
+}
+.btn {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background:rgb(	245,245,245);
+  margin: 0 auto;
+  border-radius: 15%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  border:1px solid #000;
+  -webkit-app-region:no-drag;
+}
+
+.btn i {
+  line-height: 0px;
+  font-size: 36px;
+  transition: .2s linear;
+  margin: 0 auto;
+}
+
+.fa-facebook-f {
+  color: #3b5998;
+}
+
+.btn:hover i {
+  transform: scale(1.3);
+  color: #f1f1f1 ;
+}
+.btn::before {
+  content: '';
+  position: absolute;
+  top: 90%;
+  left: -110%;
+  width: 120%;
+  height: 120%;
+  transform: rotate(45deg);
+  box-shadow: 0 10px 25px -10px #00000070;
+}
+.btn-facebook::before {
+  background: #2a2a2b;
+}
+
+
+.btn:hover::before {
+  animation: socialsIconHover .7s 1;
+  top: -10%;
+  left: -10%;
+}
+
+@keyframes socialsIconHover {
+  0% {
+      top: 90%;
+      left: -110%;
+  }
+
+  50% {
+      top: -30%;
+      left: 10%;
+  }
+
+  100% {
+      top: -10%;
+      left: -10%;
+  }
+}
+
+.divider_style{
+  width:2px;
+  height:360px;
+  margin-top: 100px;
+  margin-left: 0 auto ;
+  border: honeydew; 
+  background-color:gainsboro;
+}
+.content_title{
+  font-size: 28px;
+  color: #880000;
+  position: absolute;
+  top:12%;
+  right: 26%;;
+}
+.content_log1,.content_log2,.content_log3,.content_log4,.content_log5,.content_log6{
+  width: 150px;
+  height: 26px;
+  border-radius: 20px;
+  border:3px solid gainsboro;
+  font-size: 19px;
+  position: absolute;
+  right: 40%;
+}
+.content_log1{
+   top:23%;
+}
+.content_log2{
+  width: 170px;
+  top:15%;
+  right: 38%;
+}
+.content_log3{
+  width: 170px;
+  top:38%;
+  right: 3%;
+}
+.content_log4{
+  top:60%;
+}
+
+.content_1,.content_2,.content_3,.content_4,.content_5,.content_6{
+  font-size: 15px;
+  text-align: start;
+  width:380px;
+  padding: 3px;
+  background-color: white;
+  border-radius: 20px;
+  border:2px wheat solid;
+  position: absolute;
+  right:16%;
+}
+.content_1{
+  height: 22px;
+  top:29%;
+}
+.content_2{
+  height: 44px;
+  top:22%;
+}
+.content_3{
+  top:45%;
+  right:3%;
+}
+.content_4{
+  top:67%;
+}
+
+
+
+
